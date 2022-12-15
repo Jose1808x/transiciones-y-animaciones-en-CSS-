@@ -1,0 +1,32 @@
+body{
+    padding: 50px;
+}
+.padre{
+    display: flex;
+    margin-left: 70px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(179, 234, 163);
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-modern{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color:rgb(214, 110, 209) ;
+    color: rgb(10, 10, 10);
+    border:none;
+    border-radius:10px;
+    transition: 0.4s ease-in ;
+}
+.btn-modern:hover{
+    background-color: rgb(40, 179, 179);
+    color: aliceblue;
+    transform: translateY(-5px);
+    box-shadow: 2px 4px 10px rgb(61, 60, 60);
+}
+
+
+
